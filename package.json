@@ -1,0 +1,15 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:peterDijk/advanced-css-course.git",
+  "author": "Peter van Dijk <petervandijk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  },
+  "scripts": {
+    "compile:sass":"node-sass ./sass/main.scss ./css/style.css -w"
+  }
+}
